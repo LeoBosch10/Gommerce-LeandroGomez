@@ -1,0 +1,21 @@
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background-color: black;
+  color: white;
+  width: 100%;
+
+}
+
+.Header h1 {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Header h2 {
+  font-size: 38px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
