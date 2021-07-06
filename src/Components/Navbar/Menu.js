@@ -20,7 +20,6 @@ export default function MenuBar() {
   return (
     <div className={classes.root}>
       <ButtonGroup color="secondary" aria-label="outlined secondary button group">
-        <Button>Cursos</Button>
         <Button>Artesanias</Button>
         <Button>Decoracion</Button>
         <Button>Ceramica</Button>
