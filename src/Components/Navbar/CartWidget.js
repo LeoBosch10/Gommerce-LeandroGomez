@@ -1,11 +1,19 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import {Button} from '@material-ui/core';
+import './Navbar.css'
 
  const CartWidget = (props) =>{
    return (
-    <div>
-        <Button color="secondary"> Carrito </Button>
-      
+    <div className="cart-widget">
+        <Button
+        variant= "contained"
+        color= "secondary"
+        >
+        <AddShoppingCartIcon
+        color= 'white'
+        />
+        </Button>
     </div>
   );
 }
